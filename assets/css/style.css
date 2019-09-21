@@ -1,0 +1,143 @@
+/* basics & index.html */
+
+body {
+    background-image: url("../images/scribble_light/scribble_light_@2X.png");
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ccc;
+    margin: 0;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.masthead {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+.headerContent {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#nametag{
+    color: #fff;
+    background: #4aaaa5;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+
+.navBar{
+    padding-top: 50px;
+    float: right;
+}
+
+a {
+    color: #777;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.mainContent {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+    clear: both;
+    margin-bottom: 40px;
+    overflow: auto;
+ }
+
+ .title {
+    color: #4aaaa5;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+ }
+
+ #mainImage {
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 30%;
+    height: 30%;
+    border: 3px solid #ccc;
+ }
+
+ p {
+    color: #777;
+    margin-left: 10px;
+ }
+
+ /* I'm not sure if this is the sticky footer you had in mind but I tried other ways and couldn't get it to work properly so ¯\_(ツ)_/¯ */
+ 
+ footer {
+    color: #fff;
+    font-size: 12px;
+    background: #666;
+    clear: both;
+    padding-top: 30px;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
+
+ /* portfolio.html */
+
+ .container {
+    margin: 20px;
+    float: left;
+    overflow: auto;
+    position: relative;
+ }
+
+ .imageText {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    position: absolute;
+    color: #fff;
+    background: #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    width: 380px;
+    bottom: 20px;
+ }
+
+ /* contact.html  */
+
+ #userForm {
+    color: #777;
+}
+
+input[type=text] {
+    width: 920px;
+    padding: 12px 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    color: #fff;
+    background: #4aaaa5;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+textarea {
+    width: 920px;
+    height: 250px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
