@@ -114,7 +114,7 @@ a {
     background: #4aaaa5;
     text-align: center;
     padding: 10px;
-    width: 380px;
+    width: 400px;
     bottom: 20px;
  }
 
@@ -172,10 +172,21 @@ textarea {
     
     .mainContent {
         width: 620px;
+        font-size: 14px;
+    }
+
+    #mainImage {
+        width: 50%;
+        height: 50%;
     }
 }
 
 @media screen and (max-width: 640px) {
+
+   /*  body {
+        font-size: 20px;
+        line-height: 200%;
+    } */
 
     .masthead {
         width: 640px;
@@ -188,7 +199,7 @@ textarea {
     #nametag {
         width: 100%;
         padding: 10px;
-        /* font-size: 12px; */
+        font-size: 20px;
     }
 
     .navBar {
@@ -196,5 +207,27 @@ textarea {
         text-align: center;
         margin: 0;
         padding: 15px;
+        font-size: 20px;
+    }
+
+    .mainContent {
+        /* width: 640px; */
+        margin: 0 10px;
+    }
+
+    #mainImage {
+        width: 100%;
+        height: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 200%;
+    }
+
+    .title {
+        font-size: 18px;
     }
 }
