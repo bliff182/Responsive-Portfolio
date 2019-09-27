@@ -148,10 +148,9 @@ textarea {
     margin-top: 20px;
 }
 
+/* start media queries  */
+
 @media screen and (max-width: 980px) {
-    /* .masthead {
-        width: 768px;
-    } */
     
     .headerContent {
         width: 748px;
@@ -179,16 +178,15 @@ textarea {
         padding: 5px;
     }
 
+    input[type=text], textarea {
+        width: 708px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
 
-    .headerContent {
-        width: 620px;
-        font-size: 14px;
-    }
-    
-    .mainContent {
+    .headerContent, .mainContent {
         width: 620px;
         font-size: 14px;
     }
@@ -201,14 +199,13 @@ textarea {
     .container {
         width: 249px;
     }
+    
+    input[type=text], textarea {
+        width: 580px;
+    }
 }
 
 @media screen and (max-width: 640px) {
-
-   /*  body {
-        font-size: 20px;
-        line-height: 200%;
-    } */
 
     .masthead, .container {
         width: 640px;
@@ -233,7 +230,6 @@ textarea {
     }
 
     .mainContent {
-        /* width: 640px; */
         margin: 0 10px;
     }
 
@@ -250,7 +246,7 @@ textarea {
     }
 
     .title {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .portfolioImage, .imageText {
