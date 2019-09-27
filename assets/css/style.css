@@ -161,6 +161,24 @@ textarea {
         width: 748px;
     }
 
+    #mainImage {
+        width: 45%;
+        height: 45%;
+    }
+
+    .container {
+        width: 300px;
+    }
+    
+    .portfolioImage, .imageText {
+        width: 100%;
+    }
+
+    .imageText {
+        font-size: 14px;
+        padding: 5px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -176,8 +194,12 @@ textarea {
     }
 
     #mainImage {
-        width: 50%;
-        height: 50%;
+        width: 65%;
+        height: 65%;
+    }
+
+    .container {
+        width: 249px;
     }
 }
 
@@ -188,7 +210,7 @@ textarea {
         line-height: 200%;
     } */
 
-    .masthead {
+    .masthead, .container {
         width: 640px;
     }
 
@@ -229,5 +251,14 @@ textarea {
 
     .title {
         font-size: 18px;
+    }
+
+    .portfolioImage, .imageText {
+        width: 84%;
+        font-size: 18px;
+    }
+
+    .imageText {
+        padding: 10px;
     }
 }
