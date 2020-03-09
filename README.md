@@ -2,9 +2,10 @@
 
 ### Overview
 
-This is a recreation of my portfolio site from my Basic-Repository. Using custom CSS styling, its design is fully responsive.
+This is a recreation of my portfolio site from my Basic-Repository. Its design is fully responsive due to the utilization of media queries
 
 ### Tools Used
 
 - HTML
 - CSS
+- Media queries
