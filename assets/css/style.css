@@ -31,7 +31,7 @@ h1 {
     /* width: 100%; */
 }
 
-#nametag{
+#nametag {
     color: #fff;
     background: #4aaaa5;
     padding: 20px;
@@ -39,7 +39,7 @@ h1 {
     float: left;
 }
 
-.navBar{
+.navBar {
     padding-top: 50px;
     float: right;
 }
@@ -59,33 +59,33 @@ a {
     clear: both;
     margin-bottom: 40px;
     overflow: auto;
- }
+}
 
- .title {
+.title {
     color: #4aaaa5;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     margin-bottom: 20px;
     margin-left: 10px;
- }
+}
 
- #mainImage {
+#mainImage {
     float: left;
     margin-right: 20px;
     margin-left: 10px;
     width: 30%;
     height: 30%;
     border: 3px solid #ccc;
- }
+}
 
- p {
+p {
     color: #777;
     margin-left: 10px;
- }
+}
 
- /* I'm not sure if this is the sticky footer you had in mind but I tried other ways and couldn't get it to work properly so ¯\_(ツ)_/¯ */
- 
- footer {
+/* I'm not sure if this is the sticky footer you had in mind but I tried other ways and couldn't get it to work properly so ¯\_(ツ)_/¯ */
+
+footer {
     color: #fff;
     font-size: 12px;
     background: #666;
@@ -96,18 +96,18 @@ a {
     position: fixed;
     bottom: 0;
     width: 100%;
- }
+}
 
- /* portfolio.html */
+/* portfolio.html */
 
- .container {
+.container {
     margin: 20px;
     float: left;
     overflow: auto;
     position: relative;
- }
+}
 
- .imageText {
+.imageText {
     font-family: Georgia, Times, "Times New Roman", serif;
     position: absolute;
     color: #fff;
@@ -116,11 +116,11 @@ a {
     padding: 10px;
     width: 400px;
     bottom: 20px;
- }
+}
 
- /* contact.html  */
+/* contact.html  */
 
- #userForm {
+#userForm {
     color: #777;
 }
 
@@ -151,76 +151,60 @@ textarea {
 /* start media queries  */
 
 @media screen and (max-width: 980px) {
-    
     .headerContent {
         width: 748px;
     }
-
     .mainContent {
         width: 748px;
     }
-
     #mainImage {
         width: 45%;
         height: 45%;
     }
-
     .container {
         width: 300px;
     }
-    
     .portfolioImage, .imageText {
         width: 100%;
     }
-
     .imageText {
         font-size: 14px;
         padding: 5px;
     }
-
     input[type=text], textarea {
         width: 708px;
     }
-
 }
 
 @media screen and (max-width: 768px) {
-
     .headerContent, .mainContent {
         width: 620px;
         font-size: 14px;
     }
-
     #mainImage {
         width: 65%;
         height: 65%;
     }
-
     .container {
         width: 249px;
     }
-    
     input[type=text], textarea {
         width: 580px;
     }
 }
 
 @media screen and (max-width: 640px) {
-
     .masthead, .container {
         width: 640px;
     }
-
     .headerContent {
         width: auto;
     }
-
     #nametag {
         width: 100%;
         padding: 10px;
         font-size: 20px;
     }
-
     .navBar {
         width: 100%;
         text-align: center;
@@ -228,32 +212,26 @@ textarea {
         padding: 15px;
         font-size: 20px;
     }
-
     .mainContent {
         margin: 0 10px;
     }
-
     #mainImage {
         width: 100%;
         height: 100%;
         float: none;
         margin: 0 auto;
     }
-
     p {
         font-size: 20px;
         line-height: 200%;
     }
-
     .title {
         font-size: 20px;
     }
-
     .portfolioImage, .imageText {
         width: 84%;
         font-size: 18px;
     }
-
     .imageText {
         padding: 10px;
     }
